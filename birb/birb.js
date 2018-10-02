@@ -171,7 +171,7 @@ function keyPressed() {
   }
   return false;
 }
-function mouseClicked() {
+function mousePressed() {
   if (!loss){
     birb_height =  birb_height - 70;
     velocity = 1.5;
